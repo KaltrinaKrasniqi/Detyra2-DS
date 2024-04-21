@@ -66,7 +66,7 @@ Detailed description:
 
 ## Description of the algorithm
 
-2.PigPen(Encryption)
+2.PigPen
 
 Pigpen encryption, also known as the Freemason's cipher or the Tic-tac-toe cipher, is a simple substitution cipher used for encrypting messages. It was popular among Freemasons during the 18th and 19th centuries, but it's also commonly used for educational purposes and in puzzle solving today.
 
@@ -89,11 +89,11 @@ PigPen(keyConfig)
 * Symbol Configuration:Initializes an empty HashMap<Integer, String> to store the configured symbols.Validates the length of the key string. If it's not equal to 9, an error message is printed.
 *	Splitting Key:Splits the key string into substrings using the delimiter -.
 *	Symbol Mapping:For each substring:
-** If the substring is #, maps the symbols 1 to 9.
-** If the substring is #., maps the symbols 10 to 18.
-** If the substring is X, maps the symbols 19 to 22.
-** If the substring is X., maps the symbols 23 to 26.
-** Increments the counter based on the number of symbols added.
+* If the substring is #, maps the symbols 1 to 9.
+* If the substring is #., maps the symbols 10 to 18.
+* If the substring is X, maps the symbols 19 to 22.
+* If the substring is X., maps the symbols 23 to 26.
+* Increments the counter based on the number of symbols added.
 *	Space Symbol:Maps the space symbol (27) to its corresponding image path.
 *	Returns the configured symbols as a HashMap, where the key represents the position of the symbol in the Pigpen grid and the value represents the image path of the symbol.
 
