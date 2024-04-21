@@ -23,7 +23,7 @@ This project was made for assignment in Data Security class 2024
 
 
 
-## Description of the algorithms
+## Description of the algorithm
 
 1. ScytaleCipher(Encryption)
 
@@ -58,6 +58,8 @@ Detailed description:
 
 ![scy](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/577dec28-2688-4b0d-baff-8f96f79e5e66)
 
+
+## Description of the algorithm
 
 2.PigPen(Encryption)
 
