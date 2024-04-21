@@ -58,6 +58,9 @@ Detailed description:
 
 ![scy](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/577dec28-2688-4b0d-baff-8f96f79e5e66)
 
+![Webp net-resizeimage (3)](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/8e63d471-cf78-4a49-a15d-e2bf557b1e35)
+
+
 
 ## Description of the algorithm
 
