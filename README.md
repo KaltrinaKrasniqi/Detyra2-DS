@@ -98,11 +98,8 @@ PigPen(keyConfig)
 *	Returns the configured symbols as a HashMap, where the key represents the position of the symbol in the Pigpen grid and the value represents the image path of the symbol.
 
 
+![pigpen (1)](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/85eb0c9e-5c1e-4df0-a8be-a9635485ba51)
 
-
-
-
-![IMG-20240421-WA0001](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116361933/e635257d-3d47-41d5-b044-4cb129e1738f)
 
 
 
