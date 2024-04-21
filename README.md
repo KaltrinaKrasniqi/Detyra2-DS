@@ -12,6 +12,11 @@ This project was made for assignment in Data Security class 2024
    * Then you'll see the encrypted&decrypted text
 
 2. Pigpen
+   * Run the program on IntelliJ or any other compiler for java
+   * Enter the plaintext
+   * 
+   * Then you'll see the encrypted&decrypted text
+
    
 
 
@@ -52,6 +57,13 @@ Detailed description:
 ### Encryption&Decryption
 
 ![scy](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/577dec28-2688-4b0d-baff-8f96f79e5e66)
+
+
+2.PigPen(Encryption)
+
+Pigpen encryption, also known as the Freemason's cipher or the Tic-tac-toe cipher, is a simple substitution cipher used for encrypting messages. It was popular among Freemasons during the 18th and 19th centuries, but it's also commonly used for educational purposes and in puzzle solving today.
+
+
 
 
 
