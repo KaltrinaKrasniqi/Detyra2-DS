@@ -75,27 +75,27 @@ Pigpen encryption, also known as the Freemason's cipher or the Tic-tac-toe ciphe
 
 Pigpen encryption, also known as the Freemason's cipher or the Tic-tac-toe cipher, is a simple substitution cipher used for encrypting messages. It was popular among Freemasons during the 18th and 19th centuries, but it's also commonly used for educational purposes and in puzzle solving today.
 
-•	Encrypts a plaintext using the Pigpen cipher , taking a plaintext and Optional key used to configure the Pigpen cipher symbols.
-•	Key Configuration: The method configures the cipher symbols based on the provided key using a predefined PigPen.keyConfig() method.If no key is provided, it uses default symbols.
-•	Symbol Mapping: Maps each character of the plaintext to its corresponding Pigpen symbol based on the configured symbols that are a path in Symbol Images.
-  o	 Lowercase letters are mapped to symbols using the ASCII value difference from 'a'.
-  o	 Uppercase letters are mapped similarly using the ASCII value difference from 'A'.
-  o	 Non-letter characters are replaced with a placeholder symbol (e.g., space).
-•	Returns an array of strings (imagesPath) representing the paths to images of the encrypted symbols.The length of imagesPath is equal to the length of the plaintext.
+*	Encrypts a plaintext using the Pigpen cipher , taking a plaintext and Optional key used to configure the Pigpen cipher symbols.
+*	Key Configuration: The method configures the cipher symbols based on the provided key using a predefined PigPen.keyConfig() method.If no key is provided, it uses default symbols.
+*	Symbol Mapping: Maps each character of the plaintext to its corresponding Pigpen symbol based on the configured symbols that are a path in Symbol Images.
+** Lowercase letters are mapped to symbols using the ASCII value difference from 'a'.
+** Uppercase letters are mapped similarly using the ASCII value difference from 'A'.
+** Non-letter characters are replaced with a placeholder symbol (e.g., space).
+** Returns an array of strings (imagesPath) representing the paths to images of the encrypted symbols.The length of imagesPath is equal to the length of the plaintext.
 
 PigPen(keyConfig)
 
-•	Method Purpose: Configures Pigpen cipher symbols based on the provided key string used to configure the symbols. It should be in the format "#.-#-X-X."
-•	Symbol Configuration:Initializes an empty HashMap<Integer, String> to store the configured symbols.Validates the length of the key string. If it's not equal to 9, an error message is printed.
-•	Splitting Key:Splits the key string into substrings using the delimiter -.
-•	Symbol Mapping:For each substring:
-  o	If the substring is #, maps the symbols 1 to 9.
-  o	If the substring is #., maps the symbols 10 to 18.
-  o	If the substring is X, maps the symbols 19 to 22.
-  o	If the substring is X., maps the symbols 23 to 26.
-  o	Increments the counter based on the number of symbols added.
-•	Space Symbol:Maps the space symbol (27) to its corresponding image path.
-•	Returns the configured symbols as a HashMap, where the key represents the position of the symbol in the Pigpen grid and the value represents the image path of the symbol.
+* Method Purpose: Configures Pigpen cipher symbols based on the provided key string used to configure the symbols. It should be in the format "#.-#-X-X."
+* Symbol Configuration:Initializes an empty HashMap<Integer, String> to store the configured symbols.Validates the length of the key string. If it's not equal to 9, an error message is printed.
+*	Splitting Key:Splits the key string into substrings using the delimiter -.
+*	Symbol Mapping:For each substring:
+** If the substring is #, maps the symbols 1 to 9.
+** If the substring is #., maps the symbols 10 to 18.
+** If the substring is X, maps the symbols 19 to 22.
+** If the substring is X., maps the symbols 23 to 26.
+** Increments the counter based on the number of symbols added.
+*	Space Symbol:Maps the space symbol (27) to its corresponding image path.
+*	Returns the configured symbols as a HashMap, where the key represents the position of the symbol in the Pigpen grid and the value represents the image path of the symbol.
 
 
 
