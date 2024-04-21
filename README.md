@@ -6,13 +6,13 @@ This project was made for assignment in Data Security class 2024
 ## How to execute the program
 
 1. ScytaleCipher
-   * Run the program on IntelliJ or any other compiler for java
+   * Run the program on IntelliJ or any other compiler for java&javafx
    * Enter the plaintext
    * Enter the diamter of the stick
    * Then you'll see the encrypted&decrypted text
 
 2. Pigpen
-   * Run the program on IntelliJ or any other compiler for java
+   * Run the program on IntelliJ or any other compiler for java&javafx
    * Enter the plaintext
    * 
    * Then you'll see the encrypted&decrypted text
