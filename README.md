@@ -97,6 +97,7 @@ PigPen(keyConfig)
 *	Space Symbol:Maps the space symbol (27) to its corresponding image path.
 *	Returns the configured symbols as a HashMap, where the key represents the position of the symbol in the Pigpen grid and the value represents the image path of the symbol.
 
+## Example from execution
 
 ![pigpen (1)](https://github.com/KaltrinaKrasniqi/Detyra2-DS/assets/116883212/85eb0c9e-5c1e-4df0-a8be-a9635485ba51)
 
