@@ -14,7 +14,7 @@ This project was made for assignment in Data Security class 2024
 2. Pigpen
    * Run the program on IntelliJ or any other compiler for java&javafx
    * Enter the plaintext
-   * 
+   * Enter one of these symbols "#, #., X, X."
    * Then you'll see the encrypted&decrypted text
 
    
